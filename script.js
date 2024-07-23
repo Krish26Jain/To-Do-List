@@ -1,11 +1,11 @@
 let todoList = [
   {
     item:'birthday',
-    duedate:'18/06/2005'
+    duedate:'2005-09-26'
   },
   {
     item:'go to college',
-    duedate:'01/08/2024'
+    duedate:'2024-05-01'
   }
 ];
 displayItems();

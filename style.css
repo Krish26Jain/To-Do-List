@@ -32,6 +32,12 @@ body{
   padding: 10px 5px;
 }
 
+/* For WebKit browsers, this changes the calander symbol color */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(100%);
+}
+
+
 input::placeholder {
   color: #fff;
 }
